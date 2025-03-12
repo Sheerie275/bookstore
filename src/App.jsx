@@ -12,14 +12,14 @@ function App() {
     <>
       <h1>This is main app</h1>
       <hr />
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Link to="/books">All Books</Link>
         <Link to="/bookForm">Create Book</Link>
         <Routes>
           <Route path="/books" element={<Books />} />
           <Route path="/bookForm" element={<Bookform/>}/>
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
 
     </>
   )
